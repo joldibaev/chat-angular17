@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import "bootstrap/bootstrap_variables";
+@import "bootstrap/bootstrap";
+
+// btn
+.btn {
+  &.btn-primary {
+    color: white;
+  }
+}
+
+// utils
+.h-100vh {
+  height: 100vh;
+}
+
+
