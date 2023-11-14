@@ -1,2 +1,16 @@
 @import "bootstrap/bootstrap_variables";
 @import "bootstrap/bootstrap";
+
+// btn
+.btn {
+  &.btn-primary {
+    color: white;
+  }
+}
+
+// utils
+.h-100vh {
+  height: 100vh;
+}
+
+
