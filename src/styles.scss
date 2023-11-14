@@ -3,7 +3,8 @@
 
 // btn
 .btn {
-  &.btn-primary {
+  &.btn-primary,
+  &.btn-success {
     color: white;
   }
 }
